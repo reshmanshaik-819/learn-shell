@@ -11,3 +11,7 @@ declare -i COUNT=5
 COUNT=COUNT+1
 
 echo "COUNT is: $COUNT"
+
+FRUITS=("Apple" "Banana" "Carrot")
+echo "All fruits: ${FRUITS[@]}"
+echo "First fruits: ${FRUITS[1]}"
