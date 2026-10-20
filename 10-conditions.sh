@@ -9,7 +9,7 @@ fi
 
 echo "proceeding..."
 
-dnf install ngnixx -y
+dnf install ngnix -y
 
 if [ $? -ne 0 ]; then
     echo "ngnix installation is fail"
@@ -18,7 +18,7 @@ else
     echo "Ngnix installation is sucess"
 fi
 
-dnf install mysqlll -y
+dnf install mysql -y
 
 if [ $? -ne 0 ]; then
     echo "mysql installation is fail"
