@@ -9,10 +9,10 @@ fi
 
 echo "proceeding..."
 
-dnf install ngnix -y
+dnf install nginx -y
 
 if [ $? -ne 0 ]; then
-    echo "ngnix installation is fail"
+    echo "Nginx installation is fail"
     exit 1
 else
     echo "Ngnix installation is sucess"
