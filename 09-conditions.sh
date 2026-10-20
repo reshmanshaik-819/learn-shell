@@ -10,4 +10,4 @@ elif [ $marks -lt 50 ]; then
 echo "Third class"
 
 fi
-end
+echo "end"
