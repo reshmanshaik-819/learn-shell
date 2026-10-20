@@ -10,7 +10,7 @@ if [ $user_id -ne 0 ]; then
 fi
 
 mkdir -p $logs_folder
-
+echo "script started execuation at $(date +"%F %T")"
 
 validate(){
     if [ $1 -ne 0 ]; then
